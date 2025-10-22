@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel desk</title>
+</head>
+
+<body>
+    <form class="parametrs">
+            <p class="parametrs__text">Размер сетки:</p>
+            <span class="parametrs__wrapper">
+                <input 
+                    type="number" 
+                    id="column-size" 
+                    placeholder="от 1 до 90"
+                    min="1"
+                    max="90">
+                <button class="button-ok">OK</button>
+            </span>
+    </form>
+    <button class="theme"></button>
+    
+    <section class="workspace">
+        <div class="buttons">
+            <button title="карандаш" id="pen" class="tool-button"><img ></button>
+            <button title="ластик" id="eraser" class="tool-button"></button>
+            <button title="очистить все" id="clean" class="tool-button"></button>
+            <button title="заливка" id="fill" class="tool-button"></button>
+            <button title="отмена" id="undo" class="tool-button"></button>
+            <button title="вернуть" id="redo" class="tool-button"></button>
+            <button title="сохранить" id="save" class="tool-button"></button>
+            <input type="color" id="color" class="tool-button">
+        </div>
+    
+        <div class="main-board"></div>
+    </section>
+    
+    <div class="save-modal" id="save-modal">
+        <div class="main-modal">
+        <input 
+            type="text" 
+            id="file-name" 
+            placeholder="Введите название файла"
+            maxlength="30"    
+        >
+        <button id="save-file">Сохранить</button>
+        <button id="cansel-save">Отмена</button>
+        </div>
+    </div>
+    <div class="sky"></div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
+
