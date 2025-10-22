@@ -87,8 +87,6 @@ body.dark .button-ok {
     
 }
 
-
-
 #file-name.active {
     background-color: #fd0000;
 }
@@ -125,30 +123,27 @@ body.dark .tool-button {
 
 #fill {
     background-image: url("./img/fill-tool.png");
-
 }
 
 #eraser {
-    background-image: url("/img/eraser.png");    
+    background-image: url("./img/eraser.png");    
 }
 
 #clean {
-    background-image: url("/img/clean-all.png");
-
+    background-image: url("./img/clean-all.png");
 }
 
 #undo {
-    background-image: url("/img/undo.png");
+    background-image: url("./img/undo.png");
 }
 
 #redo {
-    background-image: url("/img/redo.png");
+    background-image: url("./img/redo.png");
 }
 
 #save {
-    background-image: url("/img/save.png");
+    background-image: url("./img/save.png");
 }
-
 
 .sky {
     position: absolute;
@@ -219,7 +214,7 @@ body.dark .sky {
 }
 
 body.dark .theme {
-    background-image: url("/img/moon.png");
+    background-image: url("./img/moon.png");
 }
 
 .save-modal {
@@ -233,7 +228,6 @@ body.dark .theme {
 
 .main-modal {
     position: relative;
-    
     height: auto;
     background-color: #6f8eb4;
     padding: 20px;
