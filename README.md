@@ -33,7 +33,6 @@
   - Алгоритм заливки на основе BFS (поиск в ширину)
   - `canvas.toDataURL('image/png')` для экспорта изображения
   - Управление состояниями (`isDraw`, `eraserOn`, `fillModeOn`, `history`, `redoStack`)
-- **SVG/иконки** — инструменты реализованы через `<button>` + `title` 
 
 ## Вы можете посетить сайт по ссылке: <https://denisionov1.github.io/pixel_editor/>
 <img width="1897" height="857" alt="image" src="https://github.com/user-attachments/assets/b564cba8-3ef2-4618-a8f9-aa2610470cc4" />
